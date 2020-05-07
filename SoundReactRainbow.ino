@@ -20,7 +20,6 @@ void loop()
 { 
   if (digitalRead(7) == 0)
   {
-    CRGBPalette16 palette = PartyColors_p;
       FastLED.setBrightness(25);
       BlackLED();
       FastLED.show();
@@ -37,9 +36,6 @@ void loop()
 
 void BlackLED()
 {
-  int BeatsPerMinute = 62;
-  CRGBPalette16 palette = CloudColors_p;
- 
   for( int i = 0; i < NUM_LEDS; i++) 
   { 
     leds[i] = CHSV(0, 0, 0);
