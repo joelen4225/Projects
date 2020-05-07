@@ -46,7 +46,7 @@ void RainbowWave()
 {
   // Rainbow Strip Pulsing at a Defined Beats-Per-Minute (BPM)
   int BeatsPerMinute = 62;
-  CRGBPalette16 palette = RainbowStripeColors_p;  //Can Use OceanColors_p, CloudColors_p, ForestColors_p, or LavaColors_p 
+  CRGBPalette16 palette = OceanColors_p;  //Can Use CloudColors_p, RainbowStripeColors_p, ForestColors_p, or LavaColors_p 
   //(Lava and Forest May Be Switched)
     
   int beat = beatsin8( BeatsPerMinute, 64, 255);
