@@ -42,7 +42,7 @@ void BlackLED()
   }
 }
 
-void RainbowWave()
+void PulseWave()
 {
   // Rainbow Strip Pulsing at a Defined Beats-Per-Minute (BPM)
   int BeatsPerMinute = 62;
