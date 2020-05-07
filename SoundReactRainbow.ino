@@ -28,7 +28,7 @@ void loop()
   if (digitalRead(7) == 1)
   {
     FastLED.setBrightness(150);
-    RainbowWave();
+    PulseWave();
     FastLED.show();
   }
 }
