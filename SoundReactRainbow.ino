@@ -49,7 +49,7 @@ void RainbowWave()
   CRGBPalette16 palette = OceanColors_p;  //Can Use CloudColors_p, RainbowStripeColors_p, ForestColors_p, or LavaColors_p 
   //(Lava and Forest May Be Switched)
     
-  int beat = beatsin8( BeatsPerMinute, 64, 255);
+  int beat = beatsin8(BeatsPerMinute, 64, 255);
   
   for( int i = 0; i < NUM_LEDS; i++) 
   { 
