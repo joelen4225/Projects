@@ -27,7 +27,7 @@ void loop()
   
   if (digitalRead(7) == 1)
   {
-    FastLED.setBrightness(255);
+    FastLED.setBrightness(150);
     RainbowWave();
     FastLED.show();
   }
