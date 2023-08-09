@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home - Demo | Website Template</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="Placeholder.png" width="200px"></a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                    <input class="img-size" type="image" src="cart.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    </form>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Insert Title Text Here</h1>
+                    <p>Insert Paragraph Text Here. Write Something<br>
+                    to Explain Your Title Text or to Show Off an New Item or Sale.</p>
+                    <a href="" class="btn">Explore &#8594</a>
+                </div>
+                <div class="col-2">
+                    <img src="Placeholder.png" width="500px">
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="categories">
+            <div class="small-container">
+            <div class="row">
+                <div class="col-3"><img src="Placeholder.png"></div>
+                <div class="col-3"><img src="Placeholder.png"></div>
+                <div class="col-3"><img src="Placeholder.png"></div>
+            </div>
+            </div>
+        </div>
+        <div class="small-container">
+            <h2 class="title">Featured Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <div class="col-4">
+                        <a href="product-details.html"><img src="Placeholder.png"></a>
+                    </div>
+                    <h4>Product Name</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <p>$ {Price}</p>
+                </div>
+            </div>
+            <h2 class="title">Latest Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <div class="col-4"><img src="Placeholder.png"></div>
+                    <h4>Product Name</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <p>$ {Price}</p>
+                </div>
+                <div class="col-4">
+                    <div class="col-4"><img src="Placeholder.png"></div>
+                    <h4>Product Name</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <p>$ {Price}</p>
+                </div>
+            </div>
+        </div>
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="Placeholder.png" class="offer-img">
+                    </div>
+                    <div class="col-2">
+                        <p>Insert Offers, Sales, Etc. Here</p>
+                        <h1>Product Name</h1>
+                        <small>Give a Brief Description About the Product. This Can Also Be Used For Custom Orders. </small>
+                        <p></p>
+                        <a href="" class="btn">Buy Now! &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <i class="fa fa-quote-left"></i>
+                        <p>You Can Write a Little About Yourself <br>
+                            and Your Company Here <br>
+                            So That Your Customers <br>
+                            Can Learn More About You.</p>
+                        <img src="Placeholder.png">
+                        <h3>Your Name</h3>
+                    </div>
+                    <div class="col-5">
+                        <i class="fa fa-quote-left"></i>
+                        <p>You Can Write a Little About Yourself <br>
+                            and Your Company Here <br>
+                            So That Your Customers <br>
+                            Can Learn More About You.</p>
+                        <img src="Placeholder.png">
+                        <h3>Your Name</h3>
+                    </div>
+                    <div class="col-5">
+                        <i class="fa fa-quote-left"></i>
+                        <p>You Can Write a Little About Yourself <br>
+                            and Your Company Here <br>
+                            So That Your Customers <br>
+                            Can Learn More About You.</p>
+                        <img src="Placeholder.png">
+                        <h3>Your Name</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="brands">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="Placeholder.png">
+                    </div>
+                    <div class="col-6">
+                        <img src="Placeholder.png">
+                    </div>
+                    <div class="col-6">
+                        <img src="Placeholder.png">
+                    </div>
+                    <div class="col-6">
+                        <img src="Placeholder.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Insert Top Text</h3>
+                        <p>Insert Bottom Text to Go Along with Top Text</p>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="Placeholder.png">
+                        <p>Insert Text to Go Along with Top Image</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Insert Text</h3>
+                        <ul>
+                            <li>Insert Link</li>
+                            <li>Insert Link</li>
+                            <li>Insert Link</li>
+                            <li>Insert Link</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Insert Text</h3>
+                        <ul>
+                            <li>Insert Link</li>
+                            <li>Insert Link</li>
+                            <li>Insert Link</li>
+                            <li>Insert Link</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2020 - Joseph Leonard</p>
+            </div>
+        </div>
+    </body>
+</html>
