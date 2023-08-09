@@ -1,7 +1,5 @@
 # Projects
-This repository includes three of my software engineering projects. The projects include coding in HTML/CSS, JavaScript, Python, Java, SQL, etc. These are the projects listed below:
-- CS50: Introduction to Computer Science Final Project (May 2020, Junior Year of High School)
+This branch is for:
 - CS1111: Intro to Programming Final Project (November 2021, Freshmen Year of College)
-- CS3140: Software Development Essentials Wordle Project (May 2023, Sophomore Year of College)
 
-Look at the branches with the correct labels to view each project.
+My partner and I aimed to recreate PacMan but with the schools in the ACC. UVA acted as our PacMan and the four other schools (Virginia Tech, UNC, Duke, and Louisville) acted as our ghosts. We received a 96 on this project.
